@@ -8,12 +8,13 @@ export function  Decision(){
     const [yes , setYes] = useState()
 
     return (
-        <>
-            <div className="container shadow-xl" >
+        <div className="mycontainer">
+
+            <div className="container1 shadow-xl" >
                 <img className="fingerprint" src={fingerprint}/>
 
             </div>
-        </>
+        </div>
     )
 
 }
