@@ -71,7 +71,7 @@ export function Decision() {
           />
 
           <div className="sub-info">
-            <h1>{name}, will you be my Valentine? 💖</h1>
+            <h1> {name}, will you be my Valentine? 💖</h1>
           </div>
 
           <div className="butn-part">
@@ -109,10 +109,10 @@ export function Decision() {
             </button>
 
             <div className="messagecomfirm">
-              <h1>I will be your valentine 🤭🎉</h1>
+              <h1>I will be your valentine 🎉</h1>
               <h3>
                 Please SEND {name2} a screenshot that you said "YES",
-                so {name2} can prepare 💝
+                so {name2} can prepare
               </h3>
             </div>
 
