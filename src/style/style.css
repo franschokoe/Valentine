@@ -15,7 +15,7 @@
 }
 
 .container1{
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -34,6 +34,7 @@
     font-weight: 600;
     color: deeppink;
     margin-top: 25px;
+    text-align: center;
 }
 .butn-part{
     display: flex;
@@ -117,25 +118,48 @@
   margin-top: 16px;
   border-radius: 14px;
 }
-
+.footers{
+    color: oklch(94.1% 0.03 12.58);
+}
 
 @media (max-width: 768px) {
-  .popup-overlay {
-    padding: 0;
-  }
-
-  .popup-box {
-    height: 100vh;
-    max-width: none;
-    border-radius: 0;
-    padding: 20px 16px;
-    display: flex;
-    flex-direction: column;
+    .popup-overlay {
+        padding: 0;
+    }
+    
+    .popup-box {
+        height: 100vh;
+        max-width: none;
+        border-radius: 0;
+        padding: 20px 16px;
+        display: flex;
+        flex-direction: column;
     justify-content: center;
-  }
+}
   .close-btn {
-    font-size: 22px;
-  }
+      font-size: 22px;
+    }
+}
+@media(max-width:425px){
+    .sub-info h1{
+        font-size: 21px;
+        text-align: center;
+    }
+}
+@media(max-width:375px){
+    .sub-info h1{
+        font-size: 19px;
+        text-align: center;
+    }
+}
+@media (max-width:320px ){
+    .sub-info h1{
+        font-size: 19px;
+        text-align: center;
+    }
+    .butn-part button{
+        font-size: 18px;
+    }
 }
 
 @keyframes popupIn {
