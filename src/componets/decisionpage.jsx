@@ -3,7 +3,7 @@ import React from "react";
 import '../style/style.css'
 import fingerprint from "../assets/first/fingerprint-love.jpg"
 
-export function  Decision(){
+export function  Decision({name}){
 
     const [yes , setYes] = useState()
 
@@ -12,7 +12,9 @@ export function  Decision(){
 
             <div className="container1 shadow-xl" >
                 <img className="fingerprint" src={fingerprint}/>
-
+                <div>
+                    <h1>{name}</h1>
+                </div>
             </div>
         </div>
     )
