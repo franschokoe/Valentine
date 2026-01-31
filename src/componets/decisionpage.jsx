@@ -13,7 +13,7 @@ export function  Decision({name}){
             <div className="container1 shadow-xl" >
                 <img className="fingerprint" src={fingerprint}/>
                 <div>
-                    <h1>{name}</h1>
+                    <h1>Your Name will you be my Valentine</h1>
                 </div>
             </div>
         </div>
