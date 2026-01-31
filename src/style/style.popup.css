@@ -1,15 +1,42 @@
 .overlay {
   position: fixed;
   inset: 0;
-  background: url('https://i.pinimg.com/736x/33/4f/9d/334f9db48070cd38f2c3d1ac74ed9eb8.jpg');
-  background-repeat: repeat;
+   background:
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+    url('https://i.pinimg.com/736x/33/4f/9d/334f9db48070cd38f2c3d1ac74ed9eb8.jpg');
+
   background-position: center;
-  background-size:contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-color: rgba(0, 0, 0, 0.35);
+
   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
   display: grid;
   place-items: center;
   z-index: 1000;
 }
+/* .overlay {
+  position: fixed;
+  inset: 0;
+
+  background:
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+    url('https://i.pinimg.com/736x/33/4f/9d/334f9db48070cd38f2c3d1ac74ed9eb8.jpg');
+
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
+
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  display: grid;
+  place-items: center;
+  z-index: 1000;
+} */
 
 .modal {
   background: rgb(219, 172, 171);
@@ -50,4 +77,11 @@
     background-color: rgba(219, 172, 171, 0.932);
     border-width: 2px;
     border-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+  .overlay {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
 }
