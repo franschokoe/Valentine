@@ -7,8 +7,11 @@ export function  Decision(){
 
     const [yes , setYes] = useState()
 
+    // useEffect(()=>{
+        
+    //     const receiverName = window.prompt("Your name: ")
 
-    // receiverName = window.prompt("Your name: ")
+    // },[])
 
     return (
         <div className="mycontainer">
@@ -16,12 +19,12 @@ export function  Decision(){
             <div className="container1 shadow-xl/30" >
                 <img className="fingerprint" src={fingerprint}/>
                 <div className="sub-info">
-                    <h1>Your Name Will you be my Valentine ?</h1>
+                    <h1>{receiverName} Will you be my Valentine ?</h1>
 
                 </div>
-                <div className="btn-part">
-                    <button>Yes ! 🌹</button>
-                    <button>No ! 😓 </button>
+                <div className="butn-part">
+                    <button className="btn1">Yes ! 🌹</button>
+                    <button className="btn2">No ! 😓 </button>
                 </div>
             </div>
 
