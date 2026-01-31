@@ -16,7 +16,7 @@ export function  Decision(){
             <div className="container1 shadow-xl/30" >
                 <img className="fingerprint" src={fingerprint}/>
                 <div className="sub-info">
-                    <h1>Your Name Will you be my Valentine</h1>
+                    <h1>Your Name Will you be my Valentine ?</h1>
 
                 </div>
                 <div className="btn-part">
