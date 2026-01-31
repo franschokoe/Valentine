@@ -1,5 +1,10 @@
 # Mini valentine invite for your person 
 
+## /////
 Auther : Frans Chokoe
+Year: 2026
 
-<iframe src="https://giphy.com/embed/26xBBjZ35Q6CMtuI8" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-illustration-twerk-26xBBjZ35Q6CMtuI8">via GIPHY</a></p>
+## Quick Facts
+
+
+Mind you i don't have a person who i can sent to , so i did this for you.
