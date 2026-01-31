@@ -5,13 +5,9 @@ import NamePopup from './componets/namepopup'
 
 function App() {
 
-  // useEffect(()=>{
-    
-  //   yourname = window.prompt("Enter Your name")
-  // },[])
-  
   return (
-    <><NamePopup/>
+    <>
+  
       <Decision/>
     </>
   )
