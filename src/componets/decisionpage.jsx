@@ -5,4 +5,12 @@ export function  Decision(){
 
     const [yes , setYes] = useState()
 
+    return (
+        <>
+            <div>
+                
+            </div>
+        </>
+    )
+
 }
