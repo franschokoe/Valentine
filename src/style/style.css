@@ -56,6 +56,11 @@
     padding: 10px;
     border-radius: 30px;
 }
+.btn1:hover{
+    transform: scaleX(3px);
+    transition: ease-out 0.3s;
+    background-color: rgba(255, 20, 145, 0.89);
+}
 .btn2{
     background-color:oklch(90.5% 0.182 98.111);
     color: White;
