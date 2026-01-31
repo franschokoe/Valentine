@@ -11,7 +11,6 @@ export function  Decision(){
     const [yes , setYes] = useState()
 
     const submit =()=>{
-
         if (!name.trim()){
             return
         }
