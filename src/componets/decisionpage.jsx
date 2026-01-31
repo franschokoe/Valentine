@@ -1,5 +1,7 @@
 import { useState } from "react";
 import React from "react";
+import '../style/style.css'
+import fingerprint from "../assets/first/fingerprint-love.jpg"
 
 export function  Decision(){
 
@@ -7,8 +9,9 @@ export function  Decision(){
 
     return (
         <>
-            <div>
-                
+            <div className="container shadow-xl" >
+                <img className="fingerprint" src={fingerprint}/>
+
             </div>
         </>
     )
