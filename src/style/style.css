@@ -21,9 +21,20 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
 }
 .fingerprint{
     width: 150px;
     border-radius: 50%;
+}
+.sub-info h1{
+    font-size: 38px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: deeppink;
+    margin-top: 25px;
+}
+.btn-part{
+
 }
