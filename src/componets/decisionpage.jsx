@@ -109,10 +109,10 @@ export function Decision() {
             </button>
 
             <div className="messagecomfirm">
-              <h1>I will be your valentine 🎉</h1>
+              <h1>I will be your valentine 🎉.</h1>
               <h3>
-                Please SEND {name2} a screenshot that you said "YES",
-                so {name2} can prepare
+                Please SEND <strong>{name2}</strong> a screenshot that you said "YES",
+                so <strong>{name2}</strong> can prepare
               </h3>
             </div>
 
@@ -123,7 +123,9 @@ export function Decision() {
           </div>
         </div>
       )}
-
+    <footer className="w-full h-8  flex items-center justify-center fixed bottom-0 footers">
+      <p>Brought to you by: Frans Chokoe.</p>
+    </footer>
     </div>
   );
 }
