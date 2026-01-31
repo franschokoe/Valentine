@@ -1,21 +1,53 @@
 .overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.5);
+  background: url('https://i.pinimg.com/736x/33/4f/9d/334f9db48070cd38f2c3d1ac74ed9eb8.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  background-size:contain;
+  backdrop-filter: blur(6px);
   display: grid;
   place-items: center;
   z-index: 1000;
 }
 
 .modal {
-  background: white;
+  background: rgb(219, 172, 171);
+  border-color: white;
+  border-width: 5px;
   padding: 1.5rem;
   border-radius: 8px;
   width: 300px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.404);
 }
 
 .modal input {
   width: 100%;
   margin: 1rem 0;
+  padding: 5px;
+  color: White;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: White;
+  outline: White;
+}
+
+.modal h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    color: white;
+}
+.modal button{
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: rgb(219, 172, 171);
+    transition: ease-in-out 0.5s;
+}
+.modal button:hover{
+    background-color: rgba(219, 172, 171, 0.932);
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
 }
